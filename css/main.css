@@ -1,0 +1,116 @@
+#bootstrap-override header {
+    /* override Bootstrap's style here */
+}
+
+#bootstrap-override .col .card{
+	min-height: 700px;
+}
+
+#bootstrap-override main img{
+	width: 100%;
+	height: auto;
+}
+
+#bootstrap-override #footer {
+	color: white;
+	text-decoration: none;
+	background-color: #62bd66;
+	padding: 10px;
+}
+#bootstrap-override .footer-content-left {
+	width: 50%;
+	float: left;
+}
+#bootstrap-override .footer-content-right {
+	width: 50%;
+	float: left;
+	text-align: right;
+	list-style: none;
+}
+
+#bootstrap-override #footer a {
+	color: white;
+}
+
+#bootstrap-override .footer-content-right li {
+	display: inline-block;
+	margin: 0 0 0 1rem;
+}
+.bg {
+  background: url('../images/backgroud-photo.jpg') no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 100%; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+h1 {
+  margin: 3rem 0 0 0;
+}
+
+h2 {
+  margin: 3rem 0 0 0;
+}
+
+h5 {
+  margin: 0.2rem 0 3rem 0;
+}
+
+
+.jumbotron {
+
+  padding-top: 170px;
+  text-align: center;
+  height: 650px;
+  color: white;
+  background:transparent;
+  text-shadow: 2px 2px black:
+}
+
+.btn {
+  border-width: 2px;
+  border-color: white;
+  background: none;
+  color: white;
+
+}
+
+.btn2 {
+  margin: 10px 0 20px 0;
+  width: 250px;
+  height: 50px;
+  border-width: 2px;
+  border-color: #62bd66;
+  background: none;
+  color: #62bd66;
+
+}
+
+img{
+  margin-top: 60px;
+	
+}
+
+@media screen and (max-width: 600px){
+
+	.jumbotron {
+		padding-top: 80px;	
+		}	
+
+	#bootstrap-override h1 {
+	  font-size: 60px;
+	  margin: 1rem 0 1rem 0;
+	}
+	
+	#bootstrap-override .footer-content-left {
+		width: 50%;
+		float: left;
+	}
+	#bootstrap-override .footer-content-right {
+		width: 50%;
+		float: left;
+		text-align: right;
+	}
+}
